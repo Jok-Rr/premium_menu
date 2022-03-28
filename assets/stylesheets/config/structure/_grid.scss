@@ -1,0 +1,68 @@
+/*
+----------------------------------
+CONFIG GRID & WRAPPER
+Modify only the variables below 
+GUIDE -> https://css-tricks.com/snippets/css/complete-guide-grid/
+----------------------------------
+*/
+
+//GRID SETTINGS
+$columns: 12;
+$gutters: 20px;
+
+//WRAPPER SETTINGS
+$margin_wrapper: 40px;
+$max_width: 1300px;
+
+//BREAKPOINT SETTINGS
+$small_breakpoint: 300px !default;
+$medium_breakpoint: 800px !default;
+$large_breakpoint: 1200px !default;
+$wide_breakpoint: 1550px !default;
+
+/*
+----------------------------------
+GRID CLASS
+----------------------------------
+*/
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat($columns, minmax(0, calc(1fr - 20px)));
+    grid-template-columns: repeat($columns, 1fr);
+    grid-row-gap: 0;
+
+    @include at-least(medium) {
+        grid-column-gap: $gutters;
+    }
+}
+
+@include at-least(small) {
+    @include parse-columns('s');
+}
+
+@include at-least(medium) {
+    @include parse-columns('m');
+}
+
+@include at-least(large) {
+    @include parse-columns('l');
+}
+
+@include at-least(wide) {
+    @include parse-columns('w');
+}
+
+/*
+----------------------------------
+WRAPPER CLASS
+----------------------------------
+*/
+
+.wrapper {
+    max-width: $max_width;
+    width: calc(100% - #{$margin_wrapper});
+    margin-right: auto;
+    margin-left: auto;
+}

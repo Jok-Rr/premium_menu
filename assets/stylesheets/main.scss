@@ -1,0 +1,29 @@
+/*
+----------------------------------
+CONFIG SCSS FILES
+----------------------------------
+*/
+
+//CONFIG FILES
+@import "config/colors";
+@import "config/mixins";
+@import "config/fonts";
+@import "config/reset";
+
+//STRUCTURE FILES
+@import "config/structure/grid";
+@import "config/structure/spacing";
+
+//ELEMENTS FILES
+@import "elements/button";
+@import "elements/table";
+@import "elements/field";
+@import "elements/texting";
+@import "elements/links";
+@import "elements/list";
+@import "elements/medias";
+
+//COMPONENTS FILES
+@import "components/header";
+@import "components/footer";
+@import "components/home";

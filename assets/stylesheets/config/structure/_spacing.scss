@@ -1,0 +1,311 @@
+/*
+----------------------------------
+CONFIG SPACING WIDTH MARGIN & PADDING
+Modify only the variables below 
+----------------------------------
+*/
+
+//DEFAULT SIZE SPACE SETTINGS
+$space: 15px;
+
+//ALL SIZE SPACE SETTINGS
+
+$space_tiny: $space / 4;
+$space_small: $space / 2;
+$space_medium: $space * 2;
+$space_large: $space * 4;
+$space_wide: $space * 8;
+
+
+/*
+----------------------------------
+MARGIN CLASS
+----------------------------------
+*/
+
+.m-none {
+    margin: none !important;
+}
+
+.mt-none {
+    margin-top: none !important;
+}
+
+.mr-none {
+    margin-right: none !important;
+}
+
+.mb-none {
+    margin-bottom: none !important;
+}
+
+.ml-none {
+    margin-left: none !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.m-tiny {
+    margin: $space_tiny !important;
+}
+
+.mt-tiny {
+    margin-top: $space_tiny !important;
+}
+
+.mr-tiny {
+    margin-right: $space_tiny !important;
+}
+
+.mb-tiny {
+    margin-bottom: $space_tiny !important;
+}
+
+.ml-tiny {
+    margin-left: $space_tiny !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.m-small {
+    margin: $space_small !important;
+}
+
+.mt-small {
+    margin-top: $space_small !important;
+}
+
+.mr-small {
+    margin-right: $space_small !important;
+}
+
+.mb-small {
+    margin-bottom: $space_small !important;
+}
+
+.ml-small {
+    margin-left: $space_small !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.m-medium {
+    margin: $space_medium !important;
+}
+
+.mt-medium {
+    margin-top: $space_medium !important;
+}
+
+.mr-medium {
+    margin-right: $space_medium !important;
+}
+
+.mb-medium {
+    margin-bottom: $space_medium !important;
+}
+
+.ml-medium {
+    margin-left: $space_medium !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.m-large {
+    margin: $space_large !important;
+}
+
+.mt-large {
+    margin-top: $space_large !important;
+}
+
+.mr-large {
+    margin-right: $space_large !important;
+}
+
+.mb-large {
+    margin-bottom: $space_large !important;
+}
+
+.ml-large {
+    margin-left: $space_large !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.m-wide {
+    margin: $space_wide !important;
+}
+
+.mt-wide {
+    margin-top: $space_wide !important;
+}
+
+.mr-wide {
+    margin-right: $space_wide !important;
+}
+
+.mb-wide {
+    margin-bottom: $space_wide !important;
+}
+
+.ml-wide {
+    margin-left: $space_wide !important;
+}
+
+/*
+----------------------------------
+PADDING CLASS
+----------------------------------
+*/
+
+
+.p-none {
+    padding: none !important;
+}
+
+.pt-none {
+    padding-top: none !important;
+}
+
+.pr-none {
+    padding-right: none !important;
+}
+
+.pb-none {
+    padding-bottom: none !important;
+}
+
+.pl-none {
+    padding-left: none !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.p-tiny {
+    padding: $space_tiny !important;
+}
+
+.pt-tiny {
+    padding-top: $space_tiny !important;
+}
+
+.pr-tiny {
+    padding-right: $space_tiny !important;
+}
+
+.pb-tiny {
+    padding-bottom: $space_tiny !important;
+}
+
+.pl-tiny {
+    padding-left: $space_tiny !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.p-small {
+    padding: $space_small !important;
+}
+
+.pt-small {
+    padding-top: $space_small !important;
+}
+
+.pr-small {
+    padding-right: $space_small !important;
+}
+
+.pb-small {
+    padding-bottom: $space_small !important;
+}
+
+.pl-small {
+    padding-left: $space_small !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.p-medium {
+    padding: $space_medium !important;
+}
+
+.pt-medium {
+    padding-top: $space_medium !important;
+}
+
+.pr-medium {
+    padding-right: $space_medium !important;
+}
+
+.pb-medium {
+    padding-bottom: $space_medium !important;
+}
+
+.pl-medium {
+    padding-left: $space_medium !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.p-large {
+    padding: $space_large !important;
+}
+
+.pt-large {
+    padding-top: $space_large !important;
+}
+
+.pr-large {
+    padding-right: $space_large !important;
+}
+
+.pb-large {
+    padding-bottom: $space_large !important;
+}
+
+.pl-large {
+    padding-left: $space_large !important;
+}
+
+/*
+--------------------------------------------
+*/
+
+.p-wide {
+    padding: $space_wide !important;
+}
+
+.pt-wide {
+    padding-top: $space_wide !important;
+}
+
+.pr-wide {
+    padding-right: $space_wide !important;
+}
+
+.pb-wide {
+    padding-bottom: $space_wide !important;
+}
+
+.pl-wide {
+    padding-left: $space_wide !important;
+}

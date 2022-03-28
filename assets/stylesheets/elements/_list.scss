@@ -1,0 +1,28 @@
+/*
+----------------------------------
+CONFIG LISTS STYLES
+Modify only the variables below 
+----------------------------------
+*/
+ul,
+ol {
+    padding: 1rem 0 1rem 5rem !important;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul[class] {
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li {
+    padding-bottom: 8px !important;
+}

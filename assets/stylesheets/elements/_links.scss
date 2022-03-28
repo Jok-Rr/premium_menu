@@ -1,0 +1,37 @@
+/*
+----------------------------------
+CONFIG LINKS STYLES
+Modify only the variables below 
+----------------------------------
+*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:visited {
+        color: inherit;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $secondary_color;
+    }
+
+    &:focus {
+        outline: thin dotted;
+    }
+
+    &:hover,
+    &:active {
+        outline: 0;
+    }
+}
+
+.herringbone {
+
+    &:before {
+        content: '> ';
+    }
+}

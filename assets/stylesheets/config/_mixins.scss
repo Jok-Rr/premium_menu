@@ -1,0 +1,94 @@
+/*
+----------------------------------
+PARSE COLUMN
+----------------------------------
+*/
+
+@mixin parse-columns($suffix: '') {
+
+    .#{$suffix}_0col {
+        display: none;
+    }
+
+    .#{$suffix}_hide {
+        display: none;
+    }
+
+    .#{$suffix}_show {
+        display: block;
+    }
+
+    @for $i from 1 through $columns {
+
+        .#{$suffix}_#{$i}col {
+            grid-column: span #{$i};
+            max-width: 100%;
+            display: block;
+        }
+
+    }
+}
+
+/*
+----------------------------------
+RESPONSIVE BREAKPOINT
+----------------------------------
+*/
+
+@mixin at-least($point) {
+    @if $point==wide {
+        @media (min-width: $wide_breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $point==large {
+        @media (min-width: $large_breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $point==medium {
+        @media (min-width: $medium_breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $point==small {
+        @media (min-width: $small_breakpoint) {
+            @content;
+        }
+    }
+
+    @else {
+        @media (min-width: $point) {
+            @content;
+        }
+    }
+}
+
+@mixin up-to($point) {
+    @if $point==wide {
+        @media (max-width: $wide_breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $point==large {
+        @media (max-width: $large_breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $point==medium {
+        @media (max-width: $medium_breakpoint) {
+            @content;
+        }
+    }
+
+    @else {
+        @media (max-width: $point) {
+            @content;
+        }
+    }
+}

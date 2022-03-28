@@ -1,0 +1,58 @@
+/*
+----------------------------------
+CONFIG BUTTON STYLE
+Modify only the variables below 
+----------------------------------
+*/
+
+//PADDING BUTTON SETTINGS
+$padding_button: 5px;
+$border_radius_button: 5px;
+
+
+
+/*
+----------------------------------
+BUTTON CLASS
+----------------------------------
+*/
+
+button,
+.btn {
+    display: inline-block;
+    background: $green;
+    width: auto;
+    color: #fff;
+    padding: $padding_button;
+    border-radius: $border_radius_button;
+    transition: all .25s ease-in-out;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 4px;
+    line-height: inherit;
+
+    &:hover {
+        filter: brightness(0.75) contrast(2.5) saturate(.8);
+        border: none;
+    }
+}
+
+.pad-btn {
+    padding: $padding_button; // when you want an element to have the same padding as your buttons
+}
+
+.btn-primary {
+    padding: $padding_button $padding_button ;
+    background-color: $primary_color;
+}
+
+.btn-secondary {
+    padding: $padding_button * 1.5;
+    background-color: $secondary_color;
+
+}
+
+.btn-alt {
+    padding: $padding_button * 2;
+}

@@ -1,0 +1,38 @@
+/*
+----------------------------------
+CONFIG VARIABLE COLORS
+Modify only the variables below 
+----------------------------------
+*/
+
+$yellow: #FEEB00;
+
+$blue: #1F5DA5;
+$blue_flash: #08FCF2;
+$blue_flash_alt: #02EBE2;
+
+$red: #E22B2B;
+
+$purple: #9B54CE;
+
+$green: #1BAF59;
+$green_flash: #3DFA05;
+
+$gray: #707070;
+$gray_light: #E4E5E8;
+
+$black: #020202;
+$white: white;
+
+$primary_color: $red;
+$secondary_color: $blue;
+
+.bg-primary {
+    background-color: $primary_color;
+    color: $white;
+}
+
+.bg-primary {
+    background-color: $secondary_color;
+    color: $white;
+}
