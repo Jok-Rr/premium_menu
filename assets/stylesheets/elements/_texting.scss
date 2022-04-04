@@ -6,31 +6,31 @@ Modify only the variables below
 */
 
 .txt-bold {
-    font-weight: bold !important;
+      font-weight: bold !important;
 }
 
 .txt-uppercase {
-    text-transform: uppercase !important;
+      text-transform: uppercase !important;
 }
 
 .txt-lowercase {
-    text-transform: lowercase !important;
+      text-transform: lowercase !important;
 }
 
 .txt-underline {
-    text-decoration: underline !important;
+      text-decoration: underline !important;
 }
 
 .txt-centered {
-    text-align: center;
+      text-align: center;
 }
 
 .txt-right {
-    text-align: right;
+      text-align: right;
 }
 
 .txt-capitalize {
-    text-transform: capitalize;
+      text-transform: capitalize;
 }
 
 h1,
@@ -39,90 +39,95 @@ h3,
 h4,
 h5,
 h6 {
-    clear: both;
-    margin-top: 0;
+      clear: both;
+      margin-top: 0;
 }
 
 pre {
-    margin: 0;
-    padding: 0 0 16px;
-    font-weight: normal;
-    font-family: monospace;
-    font-size: 1em;
+      margin: 0;
+      padding: 0 0 16px;
+      font-weight: normal;
+      font-family: monospace;
+      font-size: 1em;
 }
 
 a {
-    font-weight: 700;
+      font-weight: 700;
 }
 
 blockquote p {
-    padding: 15px;
-    background: #eee;
-    border-radius: 5px;
+      padding: 15px;
+      background: #eee;
+      border-radius: 5px;
 }
 
 p {
-    font-size: 1.6rem;
-    padding-bottom: 16px;
-    font-weight: 400;
+      font-size: 1.6rem;
+      padding-bottom: 16px;
+      font-weight: 400;
 }
 
-h1 {
-    font-size: 4.8rem;
-    font-weight: 600;
+h1,
+.h1 {
+      font-size: 4.8rem;
+      font-weight: 600;
 }
 
-h2 {
-    font-size: 3.6rem;
-    font-weight: 600;
+h2,
+.h2 {
+      font-size: 3.6rem;
+      font-weight: 600;
 }
 
-h3 {
-    font-size: 2.4rem;
-    font-weight: 600;
+h3,
+.h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
 }
 
-h4 {
-    font-size: 1.8rem;
-    font-weight: 600;
+h4,
+.h4 {
+      font-size: 1.8rem;
+      font-weight: 600;
 }
 
-h5 {
-    font-size: 1.6rem;
-    font-weight: 600;
+h5,
+.h5 {
+      font-size: 1.6rem;
+      font-weight: 600;
 }
 
 .figcaption {
-    font-size: 0.75rem;
-    /* ¾ of the body text */
+      font-size: 0.75rem;
+      /* ¾ of the body text */
 }
 
 kbd {
-    background-color: #eee !important;
-    border-radius: 3px !important;
-    border: 1px solid #b4b4b4 !important;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.20),
-        0 2px 0 0 rgba(255, 255, 255, 0.70) inset !important;
-    color: #333;
-    display: inline-block !important;
-    font-size: .85em !important;
-    font-weight: 700 !important;
-    line-height: 1 !important;
-    padding: 4px 10px !important;
-    white-space: nowrap !important;
+      background-color: #eee !important;
+      border-radius: 3px !important;
+      border: 1px solid #b4b4b4 !important;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+            0 2px 0 0 rgba(255, 255, 255, 0.7) inset !important;
+      color: #333;
+      display: inline-block !important;
+      font-size: 0.85em !important;
+      font-weight: 700 !important;
+      line-height: 1 !important;
+      padding: 4px 10px !important;
+      white-space: nowrap !important;
 }
 
 code {
-    background-color: #eee !important;
-    border-radius: 3px !important;
-    font-family: courier, monospace !important;
-    padding: 5px 10px !important;
+      background-color: #eee !important;
+      border-radius: 3px !important;
+      font-family: courier, monospace !important;
+      padding: 5px 10px !important;
 }
 
 strong,
 b,
 time {
-    font-weight: 700;
+      font-weight: 700;
 }
 
 em,
@@ -130,50 +135,50 @@ i,
 q,
 cite,
 dfn {
-    font-style: italic;
+      font-style: italic;
 }
 
 u {
-    text-decoration: #f00 wavy underline;
+      text-decoration: #f00 wavy underline;
 }
 
 del {
-    text-decoration: line-through;
-    background-color: #fbb;
-    color: #555;
+      text-decoration: line-through;
+      background-color: #fbb;
+      color: #555;
 }
 
 ins {
-    text-decoration: none;
-    background-color: #d4fcbc;
+      text-decoration: none;
+      background-color: #d4fcbc;
 }
 
 s {
-    text-decoration: line-through;
+      text-decoration: line-through;
 }
 
 sup {
-    vertical-align: super;
-    font-size: 1.5rem;
+      vertical-align: super;
+      font-size: 1.5rem;
 }
 
 sub {
-    vertical-align: sub;
-    font-size: smaller;
+      vertical-align: sub;
+      font-size: smaller;
 }
 
 small {
-    font-size: .7em;
+      font-size: 0.7em;
 }
 
 abbr {
-    font-style: italic;
-    font-weight: 300;
-    color: rgb(0, 0, 0) !important;
+      font-style: italic;
+      font-weight: 300;
+      color: rgb(0, 0, 0) !important;
 }
 
 var {
-    font-style: italic;
-    font-weight: 700;
-    color: rgb(0, 0, 0) !important;
+      font-style: italic;
+      font-weight: 700;
+      color: rgb(0, 0, 0) !important;
 }

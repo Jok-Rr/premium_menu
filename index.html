@@ -1,31 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
-    <title>Menu_Premium</title>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
-    <main class="wrapper">
-        <header>
-            <div class="site-brand">Menu Premium</div>
-            <nav>
-                <a href="">Home</a>
-                <a href="">Contact</a>
-            </nav>
-        </header>
-        <div class="map-section">
-
+    <header class="m_12col">
+        <div class="branding">
+            <h1>Menu Premium</h1>
         </div>
-        <div class="list-section">
+        <nav>
 
+        </nav>
+    </header>
+
+    <main class="main">
+        <svg style="display:none;">
+            <symbol id="fivestars">
+                <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white" fill-rule="evenodd" />
+                <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white" fill-rule="evenodd" transform="translate(24)" />
+                <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white" fill-rule="evenodd" transform="translate(48)" />
+                <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white" fill-rule="evenodd" transform="translate(72)" />
+                <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white" fill-rule="evenodd" transform="translate(96)" />
+            </symbol>
+        </svg>
+        <div class="map_container">
+            <div id="map"></div>
         </div>
+        <div id="list_container">
+            <h1 class="h3">Les restaurants dans votre secteur</h1>
+        </div>
+
     </main>
-    <script src="assets/js/index.js"></script>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC59oTmRD5Syj5hXJA7wDT2cUvb8sRBN_E&libraries=geometry&callback=getCoordintes&v=weekly"
+        async defer></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 </body>
 
 </html>
