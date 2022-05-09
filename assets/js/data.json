@@ -136,6 +136,30 @@
                   {
                         "stars": 3,
                         "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
+                  },
+                  {
+                        "stars": 3,
+                        "comment": "J'ai trouvé ça correct, sans plus"
                   }
             ]
       },
@@ -163,12 +187,60 @@
             "ratings": [
                   {
                         "stars": 5,
-                        "comment": "Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+                        "comment": "C'est de la pizza bien grosse"
                   },
                   {
                         "stars": 3,
-                        "comment": "J'ai trouvé ça correct, sans plus"
+                        "comment": "Execllent repas, je recommande"
                   }
             ]
+      },
+      {
+            "restaurantName": "Soupes et Cocottes",
+            "address": "88 Rue Thénard, 89100 Sens",
+            "lat": 48.19872343361692,
+            "lng": 3.2882978880040654,
+            "ratings": [
+                  {
+                        "stars": 4,
+                        "comment": "Une bonne cocotte"
+                  },
+                  {
+                        "stars": 5,
+                        "comment": "Super bon, accueil très chaleureux,  très belle histoire de famille."
+                  }
+            ]
+      },
+      {
+        "restaurantName": "Soupes et Cocottes",
+        "address": "88 Rue Thénard, 89100 Sens",
+        "lat": 48.706637583570625,
+        "lng": 2.588179318584246,
+        "ratings": [
+              {
+                    "stars": 4,
+                    "comment": "Une bonne cocotte"
+              },
+              {
+                    "stars": 5,
+                    "comment": "Super bon, accueil très chaleureux,  très belle histoire de famille."
+              }
+        ]
+      },
+      {
+        "restaurantName": "Del Arte",
+        "address":"la cartonnerie, 824 Av. du Lys, 77190 Dammarie-les-Lys",
+        "lat": 48.51715068203421, 
+        "lng": 2.6236546599198753,
+        "ratings": [
+              {
+                    "stars": 4,
+                    "comment": "Une bonne cocotte"
+              },
+              {
+                    "stars": 5,
+                    "comment": "Super bon, accueil très chaleureux,  très belle histoire de famille."
+              }
+        ]
       }
 ]

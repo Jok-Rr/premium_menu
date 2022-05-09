@@ -3,21 +3,13 @@
 
 <head>
     <title>Simple Map</title>
+    <meta charset="utf-8" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" type="text/css" href="assets/styles.css" />
     <script src="assets/js/index.js"></script>
 </head>
 
 <body>
-    <header class="m_12col">
-        <div class="branding">
-            <h1>Menu Premium</h1>
-        </div>
-        <nav>
-
-        </nav>
-    </header>
-
     <main class="main">
         <svg style="display:none;">
             <symbol id="fivestars">
@@ -42,13 +34,37 @@
             <div id="map"></div>
         </div>
         <div id="list_container">
-            <h1 class="h3">Les restaurants dans votre secteur</h1>
+            <h1 class="h3 p-medium">Les restaurants dans votre secteur</h1>
+            <div class="ratings_filter mb-medium">
+                <div>
+                    <select name="" id="min-rating">
+                        <option selected="selected">Notes minimum de recherche</option>
+                        <option value="1.0">⭐</option>
+                        <option value="2.0">⭐⭐</option>
+                        <option value="3.0">⭐⭐⭐</option>
+                        <option value="4.0">⭐⭐⭐⭐</option>
+                        <option value="5.0">⭐⭐⭐⭐⭐</option>
+                    </select>
+                    <select name="" id="max-rating">
+                        <option selected="selected">Notes maximum de recherche</option>
+                        <option value="1.0">⭐</option>
+                        <option value="2.0">⭐⭐</option>
+                        <option value="3.0">⭐⭐⭐</option>
+                        <option value="4.0">⭐⭐⭐⭐</option>
+                        <option value="5.0">⭐⭐⭐⭐⭐</option>
+                    </select>
+                </div>
+                <button id="btn-filter">Rechercher les restaurants</button>
+
+            </div>
+            <div id="card-container">
+
+            </div>
         </div>
 
     </main>
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC59oTmRD5Syj5hXJA7wDT2cUvb8sRBN_E&libraries=geometry&callback=getCoordintes&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC59oTmRD5Syj5hXJA7wDT2cUvb8sRBN_E&libraries=geometry&callback=getCoordinates&v=weekly"
         async defer></script>
     <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 </body>
